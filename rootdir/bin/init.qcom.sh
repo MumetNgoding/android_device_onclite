@@ -1,3 +1,4 @@
+
 #! /vendor/bin/sh
 
 # Copyright (c) 2009-2016, The Linux Foundation. All rights reserved.
@@ -425,6 +426,9 @@ case "$target" in
        esac
         ;;
 esac
+
+# Remove cache from settings
+rm -rf /data/system/package_cache
 
 #
 # Make modem config folder and copy firmware config to that folder for RIL

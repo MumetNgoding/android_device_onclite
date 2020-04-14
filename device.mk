@@ -127,8 +127,7 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
     android.hardware.camera.provider@2.4-service \
     libgui_vendor \
-    libstdc++.vendor \
-    Snap
+    libstdc++.vendor
 
 # Dalvik
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -421,3 +420,7 @@ PRODUCT_BOOT_JARS += \
 # XiaomiParts
 PRODUCT_PACKAGES += \
     XiaomiParts
+
+# GCam Go
+PRODUCT_PACKAGES += \
+    GCam

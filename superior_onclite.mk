@@ -15,7 +15,7 @@ $(call inherit-product, device/xiaomi/onclite/device.mk)
 # Inherit some common Superior stuff.
 $(call inherit-product, vendor/superior/config/common.mk)
 
-# Boot Animation
+# Bootanimation res
 TARGET_BOOT_ANIMATION_RES := 720
 
 # Face Unlock Target

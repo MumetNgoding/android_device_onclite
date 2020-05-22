@@ -410,4 +410,7 @@
          autodetected from the Configuration. -->
      <bool name="config_showNavigationBar">true</bool>
 
+    <!-- Enable face auth when swiping security view -->
+    <bool name="config_faceAuthOnSecurityView">true</bool>
+
 </resources>

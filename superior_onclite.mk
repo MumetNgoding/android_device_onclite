@@ -18,6 +18,9 @@ $(call inherit-product, vendor/superior/config/common.mk)
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 720
 
+# Face Unlock Target
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := superior_onclite
 PRODUCT_DEVICE := onclite

@@ -26,6 +26,7 @@ vendor.qcom.bluetooth.soc=pronto
 # Display post-processing
 ro.vendor.display.cabl=0
 ro.vendor.display.sensortype=2
+ro.sf.lcd_density=269
 
 # DRM
 drm.service.enabled=true

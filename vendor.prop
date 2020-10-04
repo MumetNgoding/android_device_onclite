@@ -59,3 +59,14 @@ ro.vendor.extension_library=libqti-perfd-client.so
 
 # Radio
 persist.vendor.radio.procedure_bytes=SKIP
+persist.vendor.data.mode=concurrent
+ro.vold.umsdirtyratio=20
+ro.ril.disable.power.collapse=0
+
+# Wifi
+wifi.interface=wlan0
+wifi.supplicant_scan_interval=500
+
+# Power Saver
+power.saving.mode=1
+pm.sleep_mode=1

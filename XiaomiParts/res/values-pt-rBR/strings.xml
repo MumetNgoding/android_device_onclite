@@ -56,4 +56,5 @@
     <string name="dirac_preset_country">Country</string>
     <string name="dirac_preset_dance">Dance</string>
     <string name="dirac_preset_metal">Metal</string>
+    <string name="edit_hint" formatted="false">Valor entre %1$d e %2$d</string>  
 </resources>
